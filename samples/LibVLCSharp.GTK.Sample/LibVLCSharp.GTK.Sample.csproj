@@ -12,10 +12,6 @@
     <PackageReference Condition="$([MSBuild]::IsOsPlatform('OSX'))" Include="VideoLAN.LibVLC.Mac" Version="3.1.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\LibVLCSharp.GTK\LibVLCSharp.GTK.csproj" />
-  </ItemGroup>
-
   <!-- GTK# creators don't provide a ready-to-use nuget package yet...
     The official procedure states that you should add the reference by hand, by picking the file on your disk.
     That's what I did here, but I edited it so that I can build on windows and on linux

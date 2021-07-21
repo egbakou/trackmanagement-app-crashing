@@ -11,6 +11,5 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\LibVLCSharp.Forms.Sample\LibVLCSharp.Forms.Sample.csproj" />
-    <ProjectReference Include="..\..\..\src\LibVLCSharp.Forms.Platforms.WPF\LibVLCSharp.Forms.Platforms.WPF.csproj" />
   </ItemGroup>
 </Project>
