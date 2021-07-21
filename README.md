@@ -1,13 +1,10 @@
-<h3 align="center">
-    <img src="src/assets/banner.png"/>
-</h3>
 #### Steps to reproduce the issue
 
-1. Clone the LibVLCSharp repo on Github by using the command `https://github.com/egbakou/trackmanagement-app-crashing`
+1. Clone the LibVLCSharp repo on GitHub by using the command `https://github.com/egbakou/trackmanagement-app-crashing`
 2. Open the solution in Visual Studio
-3. When restore completed, make sure that your stratup project is `LibVLCSharp.Forms.Sample.MediaElement.Android`
+3. When restore completed, make sure that your startup project is `LibVLCSharp.Forms.Sample.MediaElement.Android`
 4. Connect physical Android device to Visual Studio (Android 8.1 or 5.1)
-5. Run the stratup project in debug mode
+5. Run the startup project in debug mode
 
 #### What's the expected result?
 When the video has finished playing, you will have one of the two following situations:
